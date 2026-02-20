@@ -5,6 +5,7 @@
   "outputDirectory": "frontend/dist",
   "public": true,
   "framework": "vite",
+  "nodeVersion": "18.x",
   "env": {
     "NODE_ENV": "production"
   },
