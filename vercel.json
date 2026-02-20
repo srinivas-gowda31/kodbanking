@@ -7,13 +7,6 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "functions": {
-    "api/**/*.js": {
-      "memory": 1024,
-      "maxDuration": 30,
-      "runtime": "nodejs24.x"
-    }
-  },
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
